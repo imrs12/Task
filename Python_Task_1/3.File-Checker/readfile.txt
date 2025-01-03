@@ -1,0 +1,2 @@
+Programming, also known as coding, is the process of creating a set of instructions that tell a computer how to perform a specific task. 
+These instructions, called programs, are written in a language that the computer can understand and execute.
