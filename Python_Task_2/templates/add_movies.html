@@ -36,32 +36,17 @@
             padding: 10px;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #555;
-        }
-        a {
-            display: block;
-            margin: 20px 0;
-            text-align: center;
-            color: #333;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Add a New Movie</h1>
+    <h1>Add Movie</h1>
     <div class="container">
         <form method="POST">
             <label for="title">Movie Title:</label>
-            <input type="text" name="title" required>
+            <input type="text" id="title" name="title" required>
             <button type="submit">Add Movie</button>
         </form>
-        <a href="{{ url_for('home') }}">Back to Home</a>
     </div>
 </body>
 </html>
